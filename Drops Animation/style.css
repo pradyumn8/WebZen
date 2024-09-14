@@ -10,8 +10,8 @@ body{
 
 .drop{
     background-color: #00FFFC;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 5%;
     border: 4px solid rgba(0, 0, 0, 0.6);
     position: absolute;
