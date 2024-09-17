@@ -49,6 +49,6 @@ section h1 span.active{
         opacity: 0;
         filter: blur(20px);
         transform: translateX(-300px) translateY(300px) rotate(360deg) scale(4);
-        color: #26c328;
+        color: #26c329;
     }
 }
