@@ -7,19 +7,48 @@
     font-family: cursive;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #1a237e,#ff1744);
+    background: linear-gradient(to right, #1a237e, #ff1744);
 }
 
-div{
+div {
     text-align: center;
-    font-size: 15rem;
+    font-size: 15rem; /* Default font size for larger screens */
 }
 
-#e,#v,#e,#l,#o,#p,#e,#r,#complete{
+/* Hide all elements except the first one initially */
+#s, #p, #i, #r, #e, #n, #t, #complete {
     display: none;
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 600px) {
+    div {
+        font-size: 5rem; /* Smaller font size for mobile devices */
+    }
+
+    body {
+        flex-direction: column; /* Stack elements vertically on mobile */
+    }
+
+    /* Adjust padding/margin if needed */
+    div {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+/* Media query for tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    div {
+        font-size: 10rem; /* Medium font size for tablets */
+    }
+
+    body {
+        flex-direction: column; /* Stack elements vertically on tablets as well */
+    }
 }
