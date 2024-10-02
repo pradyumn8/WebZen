@@ -104,3 +104,37 @@ input[type="range"]{
 #sliderValue{
     margin-right: 7px;
 }
+
+
+.pass-indicator{
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background:#dfdfdf;
+    border-radius: 25px;
+}
+
+.pass-indicator::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    border-radius: inherit;
+    transition: width 0.3s ease;
+
+}
+
+.pass-indicator.weak::before{
+    width: 20%;
+    background-color: #e64a4a;
+}
+
+.pass-indicator.medium::before{
+    width: 50%;
+    background-color: #f1c80b;
+}
+
+.pass-indicator.strong::before{
+    width: 100%;
+    background-color: #4285f4;
+}
