@@ -1,13 +1,12 @@
-
 body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #E0FFFF, #FFC0CB);
     font-family: Arial, sans-serif;
     color: #333;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px 5px;
@@ -19,34 +18,34 @@ body {
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  header {
+}
+
+header {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: #ffffff;
-  }
-  
-  .row {
+}
+
+.row {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: transform 0.2s ease;
-  }
-  
-  .row:hover {
+}
+
+.row:hover {
     transform: scale(1.05);
-  }
-  
-  img {
+}
+
+img {
     margin-right: 10px;
-  }
-  
-  input[type="number"] {
+}
+
+input[type="number"] {
     padding: 10px;
     font-size: 15px;
     width: 250px;
@@ -57,48 +56,48 @@ body {
     background-color: #fff;
     color: #333;
     font-weight: 600;
-  }
-  
-  input[type="number"]:focus {
+}
+
+input[type="number"]:focus {
     border-color: #ff7e5f;
     outline: none;
     box-shadow: 0 0 0 2px #ff7e5f;
-  }
-  
-  input[type="number"]::-webkit-inner-spin-button,
-  input[type="number"]::-webkit-outer-spin-button {
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  
-  input[type="number"]::-moz-inner-spin-button,
-  input[type="number"]::-moz-outer-spin-button {
+}
+
+input[type="number"]::-moz-inner-spin-button,
+input[type="number"]::-moz-outer-spin-button {
     -moz-appearance: none;
     margin: 0;
-  }
-  
-  input[type="number"]::-ms-clear {
+}
+
+input[type="number"]::-ms-clear {
     display: none;
-  }
-  
-  input[type="number"]::-webkit-contacts-auto-fill-button {
+}
+
+input[type="number"]::-webkit-contacts-auto-fill-button {
     visibility: hidden;
     display: none !important;
     pointer-events: none;
     position: absolute;
     right: 0;
-  }
-  
-  .cash-text {
+}
+
+.cash-text {
     font-weight: bold;
     margin-left: 10px;
     width: 40px;
     display: inline-block;
     text-align: center;
     color: white;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #ff7e5f;
@@ -108,38 +107,38 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-self: flex-end;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #ff6c4a;
-  }
-  
-  #txtFinalCash {
+}
+
+#txtFinalCash {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
     color: #ffffff;
-  }
-  
-  #txtFinalCashInWords {
+}
+
+#txtFinalCashInWords {
     margin-top: 10px;
     font-style: italic;
     color: #fff;
-  }
-  
-  .result-part {
+}
+
+.result-part {
     display: flex;
     flex-direction: column;
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     0% {
-      opacity: 0;
-      transform: translateY(-20px);
+        opacity: 0;
+        transform: translateY(-20px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
+}
